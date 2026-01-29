@@ -28,7 +28,6 @@ def evaluate_thresholds(model_path, data_yaml_path):
     gt_counts = get_ground_truth_counts(val_label_dir)
     image_files = [f for f in os.listdir(val_img_dir) if f.endswith(('.jpg', '.jpeg', '.png'))]
     
-    # High confidence range to filter noise from 1-epoch model
     conf_range = [0.6, 0.7, 0.8, 0.85, 0.9, 0.95]
     iou_range = [0.45, 0.6, 0.7]
     
