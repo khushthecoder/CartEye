@@ -1,0 +1,53 @@
+Avg Aspect Ratio: !!python/object/apply:numpy._core.multiarray.scalar
+- &id001 !!python/object/apply:numpy.dtype
+  args:
+  - f8
+  - false
+  - true
+  state: !!python/tuple
+  - 3
+  - <
+  - null
+  - null
+  - null
+  - -1
+  - -1
+  - 0
+- !!binary |
+  M6zCUZcP9D8=
+Avg Objects/Image: !!python/object/apply:numpy._core.multiarray.scalar
+- *id001
+- !!binary |
+  AAAAAAAA8D8=
+Images with Overlap (IOU > 0.5): 0
+Largest Object Area: !!python/object/apply:numpy._core.multiarray.scalar
+- *id001
+- !!binary |
+  IJGcVdqX4D8=
+Max Objects/Image: !!python/object/apply:numpy._core.multiarray.scalar
+- !!python/object/apply:numpy.dtype
+  args:
+  - i8
+  - false
+  - true
+  state: !!python/tuple
+  - 3
+  - <
+  - null
+  - null
+  - null
+  - -1
+  - -1
+  - 0
+- !!binary |
+  AQAAAAAAAAA=
+Median Objects/Image: !!python/object/apply:numpy._core.multiarray.scalar
+- *id001
+- !!binary |
+  AAAAAAAA8D8=
+Smallest Object Area: !!python/object/apply:numpy._core.multiarray.scalar
+- *id001
+- !!binary |
+  Jr3WXeQXYz8=
+Total Images: 53739
+Total Objects: 53739
